@@ -1,5 +1,5 @@
 // DOMANDE
-const priceXkilometer = 10
+const priceXkilometer = 0.21
 let nome = prompt("Come ti chiami?")
 let age = parseFloat(prompt("Quanti anni hai?"))
 let distance = parseFloat(prompt("Quanti chilometri dovrai percorrere?"))
