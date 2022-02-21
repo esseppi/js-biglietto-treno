@@ -26,14 +26,14 @@ if (age < 18) {
     prezzo.innerHTML = `Il costo del tuo biglietto è di ${price}€`
     sconto.innerHTML = `Hai ricevuto uno sconto di ${discount}€`
 } else if (age > 65)  {
-    let wholeP = Math.round(distance * (priceXkilometer * (1))).toFixed(2)
-    let price = Math.round(distance * (priceXkilometer * (1 - 0.4))).toFixed(2)
+    let wholeP = (distance * (priceXkilometer * (1))).toFixed(2)
+    let price = (distance * (priceXkilometer * (1 - 0.4))).toFixed(2)
     let discount = (wholeP - price).toFixed(2)
     prezzo.innerHTML = `Il costo del tuo biglietto è di ${price}€`
     sconto.innerHTML = `Hai ricevuto uno sconto di ${discount}€`
 } else {
-    let wholeP = Math.round(distance * (priceXkilometer * (1))).toFixed(2)
-    let price = Math.round(distance * (priceXkilometer * (1))).toFixed(2)
+    let wholeP = (distance * (priceXkilometer * (1))).toFixed(2)
+    let price = (distance * (priceXkilometer * (1))).toFixed(2)
     prezzo.innerHTML = `Il costo del tuo biglietto è di ${price}€`
 }
 
